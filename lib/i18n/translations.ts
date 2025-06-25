@@ -74,10 +74,134 @@ export const translations = {
       legalText:
         "1-Coin-Bot은 Riot Games의 공식 제품이 아니며, Riot Games 또는 League of Legends 제작에 관련된 누구에 의해서도 보증되지 않습니다.",
       copyright: "© 2024 1-Coin-Bot. All rights reserved.",
+      privacyPolicy: "개인정보처리방침",
+      termsOfService: "이용약관",
     },
     // 언어 전환
     language: {
       toggle: "English",
+    },
+    // Privacy Policy
+    privacyPolicy: {
+      title: "개인정보처리방침",
+      lastUpdated: "최종 업데이트: 2025년 6월",
+      introduction: {
+        title: "소개",
+        content: "1-Coin-Bot('우리', '봇', '서비스')은 사용자의 개인정보 보호를 최우선으로 생각합니다. 본 개인정보처리방침은 우리가 수집하는 정보, 사용 방법, 그리고 사용자의 권리에 대해 설명합니다.",
+      },
+      riotDisclaimer: {
+        title: "Riot Games 면책조항",
+        content: "1-Coin-Bot은 Riot Games의 공식 제품이 아니며, Riot Games 또는 League of Legends 제작에 관련된 누구에 의해서도 보증되지 않습니다. Riot Games 및 모든 관련 속성은 Riot Games, Inc.의 상표 또는 등록상표입니다.",
+      },
+      dataCollection: {
+        title: "수집하는 정보",
+        items: [
+          "Discord 사용자 ID 및 서버 정보",
+          "Riot Games 계정명 (소환사명)",
+          "게임 랭크 및 티어 정보",
+          "매치 히스토리 (팀 밸런싱 목적)",
+          "사용 통계 및 오류 로그"
+        ],
+      },
+      dataUsage: {
+        title: "정보 사용 목적",
+        items: [
+          "커스텀 게임의 팀 밸런싱 알고리즘 운영",
+          "서비스 개선 및 버그 수정",
+          "사용자 지원 제공",
+          "남용 방지 및 보안 유지"
+        ],
+      },
+      dataSharing: {
+        title: "정보 공유",
+        content: "우리는 사용자의 개인정보를 제3자에게 판매하거나 임대하지 않습니다. 다음의 경우에만 정보를 공유할 수 있습니다:",
+        items: [
+          "법적 요구사항 준수",
+          "사용자의 명시적 동의",
+          "서비스 제공을 위한 필수적인 경우"
+        ],
+      },
+      dataRetention: {
+        title: "정보 보관",
+        content: "사용자 데이터는 서비스 제공에 필요한 기간 동안만 보관됩니다. 사용자가 서비스 사용을 중단하거나 삭제를 요청하는 경우, 관련 법령에서 요구하는 경우를 제외하고 즉시 삭제됩니다.",
+      },
+      userRights: {
+        title: "사용자 권리",
+        content: "사용자는 다음의 권리를 가집니다:",
+        items: [
+          "개인정보 열람 요구권",
+          "개인정보 정정·삭제 요구권",
+          "개인정보 처리정지 요구권",
+          "개인정보 처리 거부권"
+        ],
+      },
+      contact: {
+        title: "문의하기",
+        content: "개인정보처리방침에 대한 문의사항이 있으시면 Discord 서버를 통해 연락주시기 바랍니다.",
+      },
+      changes: {
+        title: "정책 변경",
+        content: "본 개인정보처리방침은 관련 법령이나 서비스 변경에 따라 수정될 수 있습니다. 중요한 변경사항이 있을 경우 Discord 서버를 통해 공지하겠습니다.",
+      },
+    },
+    // Terms of Service
+    termsOfService: {
+      title: "이용약관",
+      lastUpdated: "최종 업데이트: 2025년 6월",
+      introduction: {
+        title: "서비스 이용약관",
+        content: "1-Coin-Bot('우리', '봇', '서비스') 이용약관에 오신 것을 환영합니다. 본 약관은 서비스 이용 시 적용되는 규칙과 조건을 설명합니다.",
+      },
+      riotDisclaimer: {
+        title: "Riot Games 면책조항",
+        content: "1-Coin-Bot은 Riot Games의 공식 제품이 아니며, Riot Games 또는 League of Legends 제작에 관련된 누구에 의해서도 보증되지 않습니다. Riot Games 및 모든 관련 속성은 Riot Games, Inc.의 상표 또는 등록상표입니다.",
+      },
+      serviceDescription: {
+        title: "서비스 설명",
+        content: "1-Coin-Bot은 League of Legends 커스텀 게임에서 공정하고 균형잡힌 팀을 자동으로 구성해주는 Discord 봇입니다. Riot Games API를 사용하여 플레이어의 랭크 정보를 수집하고 분석합니다.",
+      },
+      userResponsibilities: {
+        title: "사용자 책임",
+        items: [
+          "정확한 소환사명 제공",
+          "서비스의 적절한 사용",
+          "다른 사용자에 대한 존중",
+          "Discord 및 Riot Games 이용약관 준수"
+        ],
+      },
+      serviceAvailability: {
+        title: "서비스 가용성",
+        content: "우리는 서비스의 지속적인 가용성을 위해 노력하지만, 기술적 문제, 유지보수, 또는 Riot Games API 변경으로 인한 일시적 중단이 발생할 수 있습니다.",
+      },
+      dataUsage: {
+        title: "데이터 사용",
+        content: "서비스 이용 시 Riot Games API를 통해 수집된 게임 데이터는 오직 팀 밸런싱 목적으로만 사용됩니다. 자세한 내용은 개인정보처리방침을 참조하시기 바랍니다.",
+      },
+      prohibitedUse: {
+        title: "금지된 사용",
+        items: [
+          "서비스의 남용 또는 오용",
+          "다른 사용자 방해 행위",
+          "부정확한 정보 제공",
+          "시스템 해킹 또는 침입 시도"
+        ],
+      },
+      liability: {
+        title: "책임 제한",
+        content: "1-Coin-Bot은 서비스 사용으로 인한 직접적, 간접적, 부수적 손해에 대해 책임지지 않습니다. 서비스는 '있는 그대로' 제공됩니다.",
+      },
+      termination: {
+        title: "서비스 종료",
+        content: "우리는 사용자가 이용약관을 위반하거나 서비스를 남용하는 경우 사전 통지 없이 서비스 이용을 제한하거나 중단할 수 있습니다.",
+      },
+      changes: {
+        title: "약관 변경",
+        content: "본 이용약관은 서비스 개선이나 법적 요구사항에 따라 변경될 수 있습니다. 중요한 변경사항이 있을 경우 Discord 서버를 통해 공지하겠습니다.",
+      },
+      contact: {
+        title: "문의하기",
+        content: "이용약관에 대한 문의사항이 있으시면 Discord 서버를 통해 연락주시기 바랍니다.",
+      },
     },
   },
   en: {
@@ -154,10 +278,134 @@ export const translations = {
       legalText:
         "1-Coin-Bot is not endorsed by Riot Games and does not reflect the views or opinions of anyone involved in the production or management of Riot Games or League of Legends.",
       copyright: "© 2024 1-Coin-Bot. All rights reserved.",
+      privacyPolicy: "Privacy Policy",
+      termsOfService: "Terms of Service",
     },
     // Language toggle
     language: {
       toggle: "한국어",
+    },
+    // Privacy Policy
+    privacyPolicy: {
+      title: "Privacy Policy",
+      lastUpdated: "Last Updated: June 2025",
+      introduction: {
+        title: "Introduction",
+        content: "1-Coin-Bot ('we', 'bot', 'service') prioritizes the protection of your personal information. This Privacy Policy explains what information we collect, how we use it, and your rights.",
+      },
+      riotDisclaimer: {
+        title: "Riot Games Disclaimer",
+        content: "1-Coin-Bot is not endorsed by Riot Games and does not reflect the views or opinions of anyone involved in the production or management of Riot Games or League of Legends. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.",
+      },
+      dataCollection: {
+        title: "Information We Collect",
+        items: [
+          "Discord user ID and server information",
+          "Riot Games account name (Summoner name)",
+          "Game rank and tier information",
+          "Match history (for team balancing purposes)",
+          "Usage statistics and error logs"
+        ],
+      },
+      dataUsage: {
+        title: "How We Use Information",
+        items: [
+          "Operating team balancing algorithms for custom games",
+          "Improving services and fixing bugs",
+          "Providing user support",
+          "Preventing abuse and maintaining security"
+        ],
+      },
+      dataSharing: {
+        title: "Information Sharing",
+        content: "We do not sell or rent your personal information to third parties. We may share information only in the following cases:",
+        items: [
+          "Legal compliance requirements",
+          "With your explicit consent",
+          "When essential for service provision"
+        ],
+      },
+      dataRetention: {
+        title: "Data Retention",
+        content: "User data is retained only for the period necessary to provide the service. When users stop using the service or request deletion, data is immediately deleted except as required by applicable laws.",
+      },
+      userRights: {
+        title: "Your Rights",
+        content: "You have the following rights:",
+        items: [
+          "Right to access personal information",
+          "Right to correct or delete personal information",
+          "Right to stop personal information processing",
+          "Right to refuse personal information processing"
+        ],
+      },
+      contact: {
+        title: "Contact Us",
+        content: "If you have any questions about this Privacy Policy, please contact us through our Discord server.",
+      },
+      changes: {
+        title: "Policy Changes",
+        content: "This Privacy Policy may be updated due to changes in applicable laws or services. We will notify important changes through our Discord server.",
+      },
+    },
+    // Terms of Service
+    termsOfService: {
+      title: "Terms of Service",
+      lastUpdated: "Last Updated: June 2025",
+      introduction: {
+        title: "Terms of Service",
+        content: "Welcome to 1-Coin-Bot ('we', 'bot', 'service') Terms of Service. These terms describe the rules and conditions that apply when using our service.",
+      },
+      riotDisclaimer: {
+        title: "Riot Games Disclaimer",
+        content: "1-Coin-Bot is not endorsed by Riot Games and does not reflect the views or opinions of anyone involved in the production or management of Riot Games or League of Legends. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.",
+      },
+      serviceDescription: {
+        title: "Service Description",
+        content: "1-Coin-Bot is a Discord bot that automatically creates fair and balanced teams for League of Legends custom games. We use the Riot Games API to collect and analyze player rank information.",
+      },
+      userResponsibilities: {
+        title: "User Responsibilities",
+        items: [
+          "Providing accurate summoner names",
+          "Appropriate use of the service",
+          "Respecting other users",
+          "Complying with Discord and Riot Games Terms of Service"
+        ],
+      },
+      serviceAvailability: {
+        title: "Service Availability",
+        content: "We strive for continuous service availability, but temporary interruptions may occur due to technical issues, maintenance, or changes to the Riot Games API.",
+      },
+      dataUsage: {
+        title: "Data Usage",
+        content: "Game data collected through the Riot Games API when using the service is used solely for team balancing purposes. Please refer to our Privacy Policy for detailed information.",
+      },
+      prohibitedUse: {
+        title: "Prohibited Use",
+        items: [
+          "Abuse or misuse of the service",
+          "Interfering with other users",
+          "Providing inaccurate information",
+          "Attempting to hack or intrude into systems"
+        ],
+      },
+      liability: {
+        title: "Limitation of Liability",
+        content: "1-Coin-Bot is not responsible for direct, indirect, or incidental damages resulting from service use. The service is provided 'as is'.",
+      },
+      termination: {
+        title: "Service Termination",
+        content: "We may restrict or terminate service access without prior notice if users violate the Terms of Service or abuse the service.",
+      },
+      changes: {
+        title: "Terms Changes",
+        content: "These Terms of Service may change due to service improvements or legal requirements. We will notify important changes through our Discord server.",
+      },
+      contact: {
+        title: "Contact Us",
+        content: "If you have any questions about these Terms of Service, please contact us through our Discord server.",
+      },
     },
   },
 }

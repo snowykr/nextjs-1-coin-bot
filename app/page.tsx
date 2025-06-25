@@ -211,6 +211,12 @@ export default function Home() {
               <a href="#privacy" className="hover:underline">
                 {t("nav.privacy")}
               </a>
+              <a href="/privacy-policy" className="hover:underline">
+                {t("footer.privacyPolicy")}
+              </a>
+              <a href="/terms-of-service" className="hover:underline">
+                {t("footer.termsOfService")}
+              </a>
             </nav>
           </div>
           <div className="flex flex-col gap-2 md:gap-4 md:flex-1">
